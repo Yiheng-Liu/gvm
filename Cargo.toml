@@ -1,7 +1,12 @@
 [package]
-name = "gvm"
+name = "govm"
 version = "0.1.0"
 edition = "2021"
+description = "A simple Go version manager, similar to nvm"
+license = "MIT"
+repository = "https://github.com/Yiheng-Liu/gvm"
+keywords = ["go", "golang", "version-manager", "cli"]
+categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }

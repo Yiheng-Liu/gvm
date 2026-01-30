@@ -341,7 +341,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "gvm"
+name = "govm"
 version = "0.1.0"
 dependencies = [
  "clap",

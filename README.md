@@ -11,13 +11,24 @@ A simple command-line tool to manage multiple Go versions, similar to [nvm](http
 
 ## Installation
 
+### From GitHub (recommended)
+
 ```bash
-# Clone and build
-git clone https://github.com/your-username/gvm.git
+cargo install --git https://github.com/Yiheng-Liu/gvm.git
+```
+
+### From crates.io
+
+```bash
+cargo install govm
+```
+
+### Build from source
+
+```bash
+git clone https://github.com/Yiheng-Liu/gvm.git
 cd gvm
 cargo build --release
-
-# Copy to your PATH
 cp ./target/release/gvm ~/go/bin/
 ```
 
